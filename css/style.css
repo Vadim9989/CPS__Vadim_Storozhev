@@ -52,9 +52,7 @@
     display: none;
   }
 
-  .header__column2 > li:nth-of-type(4) {
-
-    
+  .header__column2 > li:nth-of-type(4) {    
   border-left: 2px solid #eaeaea;
   }
   
@@ -115,29 +113,31 @@ h1 {
   .text{
     margin-left: 16px;
     font-family: 'TT Lakes';
-    width: 290px;
+    width: 288px;
     height: 90px;
     
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.20000000298023224px;
     text-align: left;
+    overflow: hidden;
 
 
 }
 
-.text_hiden-479 {
-  display: none;
-}
+
 
 .read_more{
+  width: 132px;
+  height: 24px;
   background:url("../img/png/expand.png") left no-repeat;
   padding-left: 32px;
   margin-left: 16px;
   margin-top: 16px;
   margin-bottom: 16px;
-    font-family: 'TT Lakes';
-
+  font-family: 'TT Lakes';
+  
+  border: 0;
 }
 
 
@@ -280,9 +280,14 @@ li {
   
   main{
     display: flex;
-    justify-content: space-between;
+    
+    
   }
-
+     .text{
+    width: 312px;
+    height: 160px;
+    overflow: hidden;
+  }
   .text_hiden-479{
     display: inline;
   }
