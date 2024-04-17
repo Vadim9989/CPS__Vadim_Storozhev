@@ -82,6 +82,13 @@ h1 {
   font-size: 28px;
 }
 
+.button_1120 > li:nth-child(1) {
+  display: none;
+}
+.button_1120 > li:nth-child(2) {
+  display: none;
+}
+
 .nav {
   font-family: "TTLakes";
   margin-left: 16px;
@@ -276,11 +283,39 @@ h1 {
 }
 
 @media (min-width: 1120px) {
-  body {
-    background-color: tomato;
-  }
-
   .header {
     display: none;
+  }
+
+  .Title {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button_1120 > li:nth-child(1) {
+    padding-right: 50px;
+    font-family: "TT Lakes";
+    font-size: 16px;
+    display: block;
+    background: url("../img/png/repair.png") right no-repeat;
+  }
+  .button_1120 > li:nth-child(2) {
+    margin-right: 32px;
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: right;
+    padding-right: 50px;
+
+    display: block;
+    background: url("../img/png/checkstatus.png") right no-repeat;
+  }
+  .text_hiden-479 {
+    display: block;
+  }
+  nav {
+    flex-wrap: wrap;
   }
 }
