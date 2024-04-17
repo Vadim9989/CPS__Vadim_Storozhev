@@ -279,6 +279,7 @@ h1 {
   }
   img {
     border-radius: 10px;
+    width: -webkit-fill-available;
   }
 }
 
@@ -317,5 +318,10 @@ h1 {
   }
   nav {
     flex-wrap: wrap;
+  }
+
+  img {
+    border-radius: 10px;
+    width: -webkit-fill-available;
   }
 }
